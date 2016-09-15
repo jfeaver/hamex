@@ -1,4 +1,4 @@
-defmodule Hamex.TokensServer do
+defmodule Hamex.Tokens do
   def start_link do
     Agent.start_link(fn -> [] end, name: __MODULE__)
   end
